@@ -65,6 +65,9 @@ header {
   align-items: center;
   justify-content: center;
 }
+.flex-align-center {
+  align-items: center;
+}
 .flex-align-end {
   align-items: flex-end;
 }
@@ -82,6 +85,9 @@ header {
 
 .mr-1 {
   margin-right: 1em;
+}
+.heading-color {
+  color: var(--heading-color);
 }
 
 /* Navigation */
@@ -196,6 +202,14 @@ nav ul {
 .arrows {
   margin-left: 2em;
   cursor: pointer;
+}
+
+.subscript-text {
+  margin-top: -1em;
+}
+
+.BS-button{
+  margin-bottom: 1em;
 }
 
 /* Footer */
