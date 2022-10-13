@@ -118,11 +118,55 @@ nav ul {
 .latest-blogs-body-container-section-3 {
   flex: 1;
   padding-left: 2px;
-  border-left: 2px solid var(--theme-color);
 }
 .latest-blogs-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 25px;
+}
+
+/* Footer */
+
+.footer-main {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-headline {
+  color: var(--heading-color);
+}
+.footer-main-section-1{
+  flex: 2;
+}
+
+.footer-main-section-2{
+  flex: 1;
+}
+
+.footer-main-section-3{
+  flex: 1;
+}
+
+.footer-main-section-4{
+  flex: 1;
+}
+
+.pages-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.pages-links a {
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.footer-partner{
+  margin-top: 20px;
+}
+.footer-partner img {
+  margin-bottom: 10px;
+  height: fit-content;
 }
