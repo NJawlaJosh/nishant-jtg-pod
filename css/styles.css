@@ -293,3 +293,14 @@ nav ul {
   margin-bottom: 40px;
   text-align: center;
 }
+
+.social-logo-wrapper {
+  display: inline-block;
+  border: 0.5px solid var(--theme-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social-logo-wrapper img {
+  margin: 0 auto;
+  margin: 0.2em 0.3em;
+}
