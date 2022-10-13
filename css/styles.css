@@ -133,12 +133,21 @@ nav ul {
   margin-top: 50px;
   justify-content: space-between;
   align-items: flex-start;
+  border-bottom: 1px solid var(--text-color);
+  padding-bottom: 20px;
 }
 .footer-headline {
   color: var(--heading-color);
 }
 .footer-main-section-1{
   flex: 2;
+}
+.section-1-limiter {
+  width: 70%;
+} 
+
+.socials img{
+  margin-right: 10px;
 }
 
 .footer-main-section-2{
@@ -169,4 +178,9 @@ nav ul {
 .footer-partner img {
   margin-bottom: 10px;
   height: fit-content;
+}
+
+.footer-copyrights {
+  margin: 0px 10px;
+  text-align: center;
 }
