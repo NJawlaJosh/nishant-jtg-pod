@@ -1,424 +1,427 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
 
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <title>JTG POD</title>
+  </head>
 
-  <script type="text/javascript" src="./js/main.js"></script>
-  <title>JTG POD</title>
-</head>
-
-<body>
-  <header></header>
-  <main>
-    <!-- Navbar -->
-    <nav>
-      <span class="logo">
-        <a href="#">
-          <img src="./assets/pod_logo_1.png" alt="logo" />
-          <img src="./assets/pod_logo_2.png" alt="logo" />
-        </a>
-      </span>
-      <span class="nav-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">
-            <button class="solid-button">Subscribe</button>
-          </a></li>
-        </ul>
-      </span>
-    </nav>
-    <!-- Latest Blog Section -->
-    <section class="latest-blogs">
-      <div class="latest-blogs-head">
-        <span class="latest-blogs-head-headline">Latest Blogs</span>
-        <span class="solid-button">View All</span>
-      </div>
-      <div class="latest-blogs-body">
-        <!-- container 1 -->
-        <div class="latest-blogs-body-container">
-          <div class="latest-blogs-body-container-section-1">
-            <img src="./assets/dog.png" alt="" class="blog-image" />
-          </div>
-          <div class="latest-blogs-body-container-section-2">
-            <div>
-              <p class="blog-title">
-                Visiting my friends city for the first time
-              </p>
-            </div>
-            <div>
-              <p>
-                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div class="blog-button">
-              <a href="#" class="solid-button">View</a>
-            </div>
-          </div>
-          <div class="latest-blogs-body-container-section-3">
-            <div>
-              <p># Season 1</p>
-            </div>
-            <div>
-              <p># Posted on Sep 3, 2020</p>
-            </div>
-            <div>
-              <p># audio/ goodbyes/ life</p>
-            </div>
-          </div>
-        </div>
-        <!-- container 2 -->
-        <div class="latest-blogs-body-container">
-          <div class="latest-blogs-body-container-section-1">
-            <img src="./assets/book.png" alt="" class="blog-image" />
-          </div>
-          <div class="latest-blogs-body-container-section-2">
-            <div>
-              <p class="blog-title">
-                An interesting read i definitely recommend
-              </p>
-            </div>
-            <div>
-              <p>
-                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div class="blog-button">
-              <a href="#" class="solid-button">View</a>
-            </div>
-          </div>
-          <div class="latest-blogs-body-container-section-3">
-            <div>
-              <p># Season 1</p>
-            </div>
-            <div>
-              <p># Posted on July 29, 2020</p>
-            </div>
-            <div>
-              <p># goodbyes/ life</p>
-            </div>
-          </div>
-        </div>
-        <!-- container 3 -->
-        <div class="latest-blogs-body-container">
-          <div class="latest-blogs-body-container-section-1">
-            <img src="./assets/gate.png" alt="" class="blog-image" />
-          </div>
-          <div class="latest-blogs-body-container-section-2">
-            <div>
-              <p class="blog-title">
-                What if all my adventures go back home?
-              </p>
-            </div>
-            <div>
-              <p>
-                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-            <div class="blog-button">
-              <a href="#" class="solid-button">View</a>
-            </div>
-          </div>
-          <div class="latest-blogs-body-container-section-3">
-            <div>
-              <p># Season 1</p>
-            </div>
-            <div>
-              <p># Posted on Sep 11, 2020</p>
-            </div>
-            <div>
-              <p># audio/ goodbyes</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="latest-blogs-footer">
-        <a href="#" class="skeleton-button">Show More Episode</a>
-      </div>
-    </section>
-    <!-- Blog Posts -->
-    <section>
-      <div class="blog-post-header-wrapper">
-        <h2 class="blog-post-header">Blog Posts</h2>
-      </div>
-      <div class="slider">
-        <!-- slider 1 -->
-        <div class="BP-post-wrapper">
-          <div class="flex flex-column">
-            <div class="flex flex-align-center">
-              <p class="theme-text mr-1">By Mehedi Hasan</p>
-              <p class="s-text">Sep 11, 2020</p>
-            </div>
-            <div class="subscript-text">
-              <p>
-                Cantonese Radio
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="heading-color">
-              Global News Podcast Thai soilder kills many people a shooting
-              rampage
-            </p>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              dolorem! Rerum neque iste vitae quia, dolore quaerat
-              accusamus.....
-            </p>
-          </div>
-          <div class="BS-button">
-            <a href="#" class="skeleton-button"> Read More</a>
-          </div>
-        </div>
-        <!-- slider 2 -->
-        <div class="BP-post-wrapper">
-          <div class="flex flex-column">
-            <div class="flex flex-align-center">
-              <p class="theme-text mr-1">By Mehedi Hasan</p>
-              <p class="s-text">Sep 11, 2020</p>
-            </div>
-            <div class="subscript-text">
-              <p>
-                Cantonese Radio
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="heading-color">
-              Global News Podcast Thai soilder kills many people a shooting
-              rampage
-            </p>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              dolorem! Rerum neque iste vitae quia, dolore quaerat
-              accusamus.....
-            </p>
-          </div>
-          <div class="BS-button">
-            <a href="#" class="skeleton-button"> Read More</a>
-          </div>
-        </div>
-        <!-- slider 3 -->
-        <div class="BP-post-wrapper">
-          <div class="flex flex-column">
-            <div class="flex flex-align-center">
-              <p class="theme-text mr-1">By Mehedi Hasan</p>
-              <p class="s-text">Sep 11, 2020</p>
-            </div>
-            <div class="subscript-text">
-              <p>
-                Cantonese Radio
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="heading-color">
-              Global News Podcast Thai soilder kills many people a shooting
-              rampage
-            </p>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              dolorem! Rerum neque iste vitae quia, dolore quaerat
-              accusamus.....
-            </p>
-          </div>
-          <div class="BS-button">
-            <a href="#" class="skeleton-button"> Read More</a>
-          </div>
-        </div>
-        <!-- Slider 4 -->
-        <div class="BP-post-wrapper">
-          <div class="flex flex-column">
-            <div class="flex flex-align-center">
-              <p class="theme-text mr-1">By Mehedi Hasan</p>
-              <p class="s-text">Sep 11, 2020</p>
-            </div>
-            <div class="subscript-text">
-              <p>
-                Cantonese Radio
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="heading-color">
-              Global News Podcast Thai soilder kills many people a shooting
-              rampage
-            </p>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              dolorem! Rerum neque iste vitae quia, dolore quaerat
-              accusamus.....
-            </p>
-          </div>
-          <div class="BS-button">
-            <a href="#" class="skeleton-button"> Read More</a>
-          </div>
-        </div>
-        <!-- slider 5 -->
-        <div class="BP-post-wrapper">
-          <div class="flex flex-column">
-            <div class="flex flex-align-center">
-              <p class="theme-text mr-1">By Mehedi Hasan</p>
-              <p class="s-text">Sep 11, 2020</p>
-            </div>
-            <div class="subscript-text">
-              <p>
-                Cantonese Radio
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="heading-color">
-              Global News Podcast Thai soilder kills many people a shooting
-              rampage
-            </p>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              dolorem! Rerum neque iste vitae quia, dolore quaerat
-              accusamus.....
-            </p>
-          </div>
-          <div class="BS-button">
-            <a href="#" class="skeleton-button"> Read More</a>
-          </div>
-        </div>
-        <!-- slider 6 -->
-        <div class="BP-post-wrapper">
-          <div class="flex flex-column">
-            <div class="flex flex-align-center">
-              <p class="theme-text mr-1">By Mehedi Hasan</p>
-              <p class="s-text">Sep 11, 2020</p>
-            </div>
-            <div class="subscript-text">
-              <p>
-                Cantonese Radio
-              </p>
-            </div>
-          </div>
-          <div>
-            <p class="heading-color">
-              Global News Podcast Thai soilder kills many people a shooting
-              rampage
-            </p>
-          </div>
-          <div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-              dolorem! Rerum neque iste vitae quia, dolore quaerat
-              accusamus.....
-            </p>
-          </div>
-          <div class="BS-button">
-            <a href="#" class="skeleton-button"> Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="slider-arrows flex flex-center">
-        <div class="arrows prev">
-          <img src="./assets/arrow-left.png" alt="">
-        </div>
-        <div class="arrows next">
-          <img src="./assets/arrow-right.png" alt="">
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-
-    <footer>
-      <div class="footer-main">
-        <div class="footer-main-section-1">
-          <div class="section-1-limiter">
+  <body>
+    <header></header>
+    <main>
+      <!-- Navbar -->
+      <nav>
+        <span class="logo">
+          <a href="#">
             <img src="./assets/pod_logo_1.png" alt="logo" />
             <img src="./assets/pod_logo_2.png" alt="logo" />
+          </a>
+        </span>
+        <span class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a href="#">
+                <button class="solid-button">Subscribe</button>
+              </a>
+            </li>
+          </ul>
+        </span>
+      </nav>
+      <!-- Latest Blog Section -->
+      <section class="latest-blogs">
+        <div class="latest-blogs-head">
+          <span class="latest-blogs-head-headline">Latest Blogs</span>
+          <span>
+            <a href="#"><button class="solid-button">View All</button></a>
+          </span>
+        </div>
+        <div class="latest-blogs-body">
+          <!-- container 1 -->
+          <div class="latest-blogs-body-container">
+            <div class="latest-blogs-body-container-section-1">
+              <img src="./assets/dog.png" alt="" class="blog-image" />
+            </div>
+            <div class="latest-blogs-body-container-section-2">
+              <div>
+                <p class="blog-title">
+                  Visiting my friends city for the first time
+                </p>
+              </div>
+              <div>
+                <p>
+                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="blog-button">
+                <a href="#"><button class="solid-button">View</button></a>
+              </div>
+            </div>
+            <div class="latest-blogs-body-container-section-3">
+              <div>
+                <p># Season 1</p>
+              </div>
+              <div>
+                <p># Posted on Sep 3, 2020</p>
+              </div>
+              <div>
+                <p># audio/ goodbyes/ life</p>
+              </div>
+            </div>
           </div>
-          <div class="section-1-limiter">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-              fugit neque ullam consectetur quasi.
-            </p>
+          <!-- container 2 -->
+          <div class="latest-blogs-body-container">
+            <div class="latest-blogs-body-container-section-1">
+              <img src="./assets/book.png" alt="" class="blog-image" />
+            </div>
+            <div class="latest-blogs-body-container-section-2">
+              <div>
+                <p class="blog-title">
+                  An interesting read i definitely recommend
+                </p>
+              </div>
+              <div>
+                <p>
+                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="blog-button">
+                <a href="#"><button class="solid-button">View</button></a>
+              </div>
+            </div>
+            <div class="latest-blogs-body-container-section-3">
+              <div>
+                <p># Season 1</p>
+              </div>
+              <div>
+                <p># Posted on July 29, 2020</p>
+              </div>
+              <div>
+                <p># goodbyes/ life</p>
+              </div>
+            </div>
           </div>
-          <div class="section-1-limiter">
+          <!-- container 3 -->
+          <div class="latest-blogs-body-container">
+            <div class="latest-blogs-body-container-section-1">
+              <img src="./assets/gate.png" alt="" class="blog-image" />
+            </div>
+            <div class="latest-blogs-body-container-section-2">
+              <div>
+                <p class="blog-title">
+                  What if all my adventures go back home?
+                </p>
+              </div>
+              <div>
+                <p>
+                  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="blog-button">
+                <a href="#"><button class="solid-button">View</button></a>
+              </div>
+            </div>
+            <div class="latest-blogs-body-container-section-3">
+              <div>
+                <p># Season 1</p>
+              </div>
+              <div>
+                <p># Posted on Sep 11, 2020</p>
+              </div>
+              <div>
+                <p># audio/ goodbyes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="latest-blogs-footer">
+          <a href="#"><button class="skeleton-button">Show More Episode</button></a>
+        </div>
+      </section>
+      <!-- Blog Posts -->
+      <section>
+        <div class="blog-post-header-wrapper">
+          <h2 class="blog-post-header">Blog Posts</h2>
+        </div>
+        <div class="slider">
+          <!-- slider 1 -->
+          <div class="BP-post-wrapper">
+            <div class="flex flex-column">
+              <div class="flex flex-align-center">
+                <p class="theme-text mr-1">By Mehedi Hasan</p>
+                <p class="s-text">Sep 11, 2020</p>
+              </div>
+              <div class="subscript-text">
+                <p>Cantonese Radio</p>
+              </div>
+            </div>
             <div>
-              <p class="footer-headline">Socials</p>
+              <p class="heading-color">
+                Global News Podcast Thai soilder kills many people a shooting
+                rampage
+              </p>
             </div>
-            <div class="socials">
-              <img src="./assets/facebook.png" alt="" />
-              <img src="./assets/linkedin.png" alt="" />
-              <img src="./assets/instagram.png" alt="" />
+            <div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                dolorem! Rerum neque iste vitae quia, dolore quaerat
+                accusamus.....
+              </p>
+            </div>
+            <div class="BS-button">
+              <a href="#"><button class="skeleton-button">Read More</button></a>
+            </div>
+          </div>
+          <!-- slider 2 -->
+          <div class="BP-post-wrapper">
+            <div class="flex flex-column">
+              <div class="flex flex-align-center">
+                <p class="theme-text mr-1">By Mehedi Hasan</p>
+                <p class="s-text">Sep 11, 2020</p>
+              </div>
+              <div class="subscript-text">
+                <p>Cantonese Radio</p>
+              </div>
+            </div>
+            <div>
+              <p class="heading-color">
+                Global News Podcast Thai soilder kills many people a shooting
+                rampage
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                dolorem! Rerum neque iste vitae quia, dolore quaerat
+                accusamus.....
+              </p>
+            </div>
+            <div class="BS-button">
+              <a href="#"><button class="skeleton-button">Read More</button></a>
+            </div>
+          </div>
+          <!-- slider 3 -->
+          <div class="BP-post-wrapper">
+            <div class="flex flex-column">
+              <div class="flex flex-align-center">
+                <p class="theme-text mr-1">By Mehedi Hasan</p>
+                <p class="s-text">Sep 11, 2020</p>
+              </div>
+              <div class="subscript-text">
+                <p>Cantonese Radio</p>
+              </div>
+            </div>
+            <div>
+              <p class="heading-color">
+                Global News Podcast Thai soilder kills many people a shooting
+                rampage
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                dolorem! Rerum neque iste vitae quia, dolore quaerat
+                accusamus.....
+              </p>
+            </div>
+            <div class="BS-button">
+              <a href="#"><button class="skeleton-button">Read More</button></a>
+            </div>
+          </div>
+          <!-- Slider 4 -->
+          <div class="BP-post-wrapper">
+            <div class="flex flex-column">
+              <div class="flex flex-align-center">
+                <p class="theme-text mr-1">By Mehedi Hasan</p>
+                <p class="s-text">Sep 11, 2020</p>
+              </div>
+              <div class="subscript-text">
+                <p>Cantonese Radio</p>
+              </div>
+            </div>
+            <div>
+              <p class="heading-color">
+                Global News Podcast Thai soilder kills many people a shooting
+                rampage
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                dolorem! Rerum neque iste vitae quia, dolore quaerat
+                accusamus.....
+              </p>
+            </div>
+            <div class="BS-button">
+              <a href="#"><button class="skeleton-button">Read More</button></a>
+            </div>
+          </div>
+          <!-- slider 5 -->
+          <div class="BP-post-wrapper">
+            <div class="flex flex-column">
+              <div class="flex flex-align-center">
+                <p class="theme-text mr-1">By Mehedi Hasan</p>
+                <p class="s-text">Sep 11, 2020</p>
+              </div>
+              <div class="subscript-text">
+                <p>Cantonese Radio</p>
+              </div>
+            </div>
+            <div>
+              <p class="heading-color">
+                Global News Podcast Thai soilder kills many people a shooting
+                rampage
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                dolorem! Rerum neque iste vitae quia, dolore quaerat
+                accusamus.....
+              </p>
+            </div>
+            <div class="BS-button">
+              <a href="#"><button class="skeleton-button">Read More</button></a>
+            </div>
+          </div>
+          <!-- slider 6 -->
+          <div class="BP-post-wrapper">
+            <div class="flex flex-column">
+              <div class="flex flex-align-center">
+                <p class="theme-text mr-1">By Mehedi Hasan</p>
+                <p class="s-text">Sep 11, 2020</p>
+              </div>
+              <div class="subscript-text">
+                <p>Cantonese Radio</p>
+              </div>
+            </div>
+            <div>
+              <p class="heading-color">
+                Global News Podcast Thai soilder kills many people a shooting
+                rampage
+              </p>
+            </div>
+            <div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
+                dolorem! Rerum neque iste vitae quia, dolore quaerat
+                accusamus.....
+              </p>
+            </div>
+            <div class="BS-button">
+              <a href="#"><button class="skeleton-button">Read More</button></a>
             </div>
           </div>
         </div>
-        <div class="footer-main-section-2">
-          <div>
-            <p class="footer-headline">Pages</p>
+        <div class="slider-arrows flex flex-center">
+          <div class="arrows prev">
+            <img src="./assets/arrow-left.png" alt="" />
           </div>
-          <div class="pages-links">
-            <a href="#">About</a>
-            <a href="#">Episode</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+          <div class="arrows next">
+            <img src="./assets/arrow-right.png" alt="" />
           </div>
         </div>
-        <div class="footer-main-section-3">
-          <div>
-            <p class="footer-headline">Recent Blogs</p>
-          </div>
-          <div class="pages-links">
-            <a href="#">Blog 1</a>
-            <a href="#">Blog 2</a>
-            <a href="#">Blog 3</a>
-            <a href="#">Blog 4</a>
-          </div>
-        </div>
-        <div class="footer-main-section-4">
-          <div>
-            <p class="footer-headline">Partners</p>
-          </div>
-          <div class="footer-partner">
-            <img src="./assets/google_podcast@2x.png" alt="" />
-            <img src="./assets/apple_podcast@2x.png" alt="" />
-            <img src="./assets/spotify@2x.png" alt="" />
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyrights">
-        <div>
-          <p>© 2020 Josh Technology Group</p>
-        </div>
-      </div>
-    </footer>
-  </main>
-</body>
+      </section>
 
+      <!-- Footer -->
+
+      <footer>
+        <div class="footer-main">
+          <div class="footer-main-section-1">
+            <div class="section-1-limiter">
+              <img src="./assets/pod_logo_1.png" alt="logo" />
+              <img src="./assets/pod_logo_2.png" alt="logo" />
+            </div>
+            <div class="section-1-limiter">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                fugit neque ullam consectetur quasi.
+              </p>
+            </div>
+            <div class="section-1-limiter">
+              <div>
+                <p class="footer-headline">Socials</p>
+              </div>
+              <div class="socials">
+                <img src="./assets/facebook.png" alt="" />
+                <img src="./assets/linkedin.png" alt="" />
+                <img src="./assets/instagram.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-main-section-2">
+            <div>
+              <p class="footer-headline">Pages</p>
+            </div>
+            <div class="pages-links">
+              <a href="#">About</a>
+              <a href="#">Episode</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+          <div class="footer-main-section-3">
+            <div>
+              <p class="footer-headline">Recent Blogs</p>
+            </div>
+            <div class="pages-links">
+              <a href="#">Blog 1</a>
+              <a href="#">Blog 2</a>
+              <a href="#">Blog 3</a>
+              <a href="#">Blog 4</a>
+            </div>
+          </div>
+          <div class="footer-main-section-4">
+            <div>
+              <p class="footer-headline">Partners</p>
+            </div>
+            <div class="footer-partner">
+              <img src="./assets/google_podcast@2x.png" alt="" />
+              <img src="./assets/apple_podcast@2x.png" alt="" />
+              <img src="./assets/spotify@2x.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyrights">
+          <div>
+            <p>© 2020 Josh Technology Group</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
