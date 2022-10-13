@@ -23,6 +23,8 @@ a {
   color: var(--color-white);
   padding: 10px 20px;
   cursor: pointer;
+  border: none;
+  display: inline-block;
 }
 
 .skeleton-button {
@@ -109,6 +111,7 @@ nav ul {
 .nav-links ul {
   display: inline-flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 
