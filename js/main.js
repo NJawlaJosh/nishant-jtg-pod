@@ -5,4 +5,11 @@ $(document).ready(() => {
       slidesToScroll: 1,
       arrows: false,
     });
+    $('.prev').click(function(){
+      $('.slider').slick('slickPrev');
+    })
+    
+    $('.next').click(function(){
+      $('.slider').slick('slickNext');
+    })
   });

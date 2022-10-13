@@ -63,6 +63,7 @@ header {
 
 .flex-center {
   align-items: center;
+  justify-content: center;
 }
 .flex-align-end {
   align-items: flex-end;
@@ -134,6 +135,7 @@ nav ul {
 .latest-blogs-body-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 50px;
 }
 
@@ -191,6 +193,10 @@ nav ul {
   margin: 2em 0;
 }
 
+.arrows {
+  margin-left: 2em;
+  cursor: pointer;
+}
 
 /* Footer */
 
