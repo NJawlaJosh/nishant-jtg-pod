@@ -234,6 +234,12 @@ nav ul {
   margin-bottom: 1em;
 }
 
+.bp-post-head {
+  border-left: 1px solid var(--theme-color);
+  margin-left: -1em;
+  padding-left: 1em;
+}
+
 /* Footer */
 
 .footer-main {
