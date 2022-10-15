@@ -279,11 +279,6 @@ nav ul {
 .section-1-limiter {
   width: 70%;
 } 
-
-.socials img{
-  margin-right: 10px;
-}
-
 .footer-main-section-2{
   flex: 1;
 }
@@ -328,14 +323,24 @@ nav ul {
   margin-bottom: 40px;
   text-align: center;
 }
-
+.socials{
+  display: flex;
+}
 .social-logo-wrapper {
   display: inline-block;
   border: 0.5px solid var(--theme-color);
   border-radius: 50%;
   cursor: pointer;
+  padding: 1.3rem;
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.social-logo-wrapper img {
-  margin: 0 auto;
-  margin: 0.2em 0.3em;
+.social-media-img{
+  margin-right: 0 !important;
+}
+.margin-left-1rem{
+  margin-left: 1rem;
 }
