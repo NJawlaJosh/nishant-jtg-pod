@@ -8,11 +8,31 @@
   --header-color: rgba(236,236,236,255);
 }
 
+
 * {
   box-sizing: border-box;
   color: var(--text-color);
 }
 
+/* Structural */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+main {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: -8em;
+  max-width: 1200px !important;
+}
+header {
+  background-color: var(--header-color);
+  padding: 6em 0;
+}
+
+/* Elements */
 a, a:visited, a:active, a:hover {
   text-decoration: none;
   color: var(--links-color);
@@ -46,23 +66,6 @@ a:hover{
 .skeleton-button:hover {
   background-color: var(--theme-color);
   color: var(--color-white);
-}
-/* Structural */
-body{
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-}
-main {
-  width: 70%;
-  margin: 0 auto;
-  margin-top: -8em;
-  max-width: 1200px !important;
-}
-header {
-  background-color: var(--header-color);
-  padding: 6em 0;
 }
 
 /* Utility Classes */
@@ -109,6 +112,19 @@ header {
   border-right: 1px solid var(--text-color);
   padding: 0.2em;
 }
+
+.inline-block {
+  display: inline-block;
+}
+
+.w-70 {
+  width: 70%;
+}
+.limiter {
+  margin: 0 auto;
+  max-width: 1200px !important;
+}
+
 
 /* Navigation */
 
@@ -160,16 +176,17 @@ nav ul {
   font-weight: 600;
 }
 
-.latest-blogs-body-container {
+.latest-blogs-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
 }
 
-.latest-blogs-body-container-section-1 {
+.latest-blog-image {
   flex: 1;
 }
+
 .blog-title {
   font-size: 1.2rem;
   font-weight: 600;
@@ -180,8 +197,9 @@ nav ul {
 .blog-image {
   width: 100%;
 }
-.latest-blogs-body-container-section-2 {
+.latest-blog-content {
   flex: 2;
+  margin-right: 0.5em;
 }
 
 .blog-button {
@@ -190,7 +208,7 @@ nav ul {
   margin-right: 20px;
 }
 
-.latest-blogs-body-container-section-3 {
+.latest-blog-tags {
   flex: 1;
   padding-left: 0.5em;
   border-left: 1px solid var(--text-color);
@@ -232,7 +250,7 @@ nav ul {
   margin-top: -1em;
 }
 
-.BS-button{
+.BS-button-wrapper{
   margin-bottom: 1em;
 }
 
@@ -287,12 +305,21 @@ nav ul {
   margin-bottom: 10px;
   color: var(--text-color);
 }
-
+.pages-links a:hover {
+  color: var(--theme-color);
+}
 .footer-partner{
   margin-top: 20px;
 }
 .footer-partner img {
   margin-bottom: 10px;
+  height: fit-content;
+}
+
+.partner-image-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
   height: fit-content;
 }
 
